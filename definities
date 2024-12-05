@@ -15,4 +15,4 @@ def funcbrekingsindex(theta1, n2):
     c1 = 2 * n2 * d *(1/np.sqrt(1-n1**2/n2**2 * np.sin(theta1)**2)-1)
     c2 = (2*d * n1**2 * np.sin(theta1)**2)/np.sqrt(n2**2 - n1**2 * np.sin(theta1)**2)
     c3 = 2*n1*d * (np.cos(theta1) - 1)
-    return (c1 - c2 - c3)l
+    return (c1 - c2 - c3)/l
